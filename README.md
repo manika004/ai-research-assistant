@@ -2,6 +2,10 @@
 
 An AI-powered Research Assistant that autonomously gathers information from the web, analyzes it using Google's Gemini model, and generates structured research reports with key insights, challenges, and future directions.
 
+## 🚀 Live Demo
+
+👉 [https://research-assistant.streamlit.app](https://j6anzjmzhaehv22q33ovqt.streamlit.app/)
+
 ## Features
 
 * Web-based information retrieval using DuckDuckGo Search
