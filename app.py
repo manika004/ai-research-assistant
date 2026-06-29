@@ -6,7 +6,7 @@ from reportlab.platypus import SimpleDocTemplate, Paragraph
 from reportlab.lib.styles import getSampleStyleSheet
 
 print("KEY:", os.getenv("GOOGLE_API_KEY"))
-genai.configure(api_key=st.secrets("GOOGLE_API_KEY"))
+genai.configure(api_key = st.secrets.get("GOOGLE_API_KEY"))
 model = genai.GenerativeModel("gemini-2.5-flash")
 
 def search_web(query):
